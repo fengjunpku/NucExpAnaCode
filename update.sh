@@ -14,7 +14,7 @@ fi
 
 #add & commit
 git add *
-git commit -m \"$content\"
+git commit -m $content
 
 #push to github
 git push origin master
